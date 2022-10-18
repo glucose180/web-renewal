@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Starbucks Korea</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bxslider-4-4.2.12/src/css/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="bxslider-4-4.2.12/src/js/jquery.bxslider.js"></script>
+    <!-- Swiper -->
+    <link rel="stylesheet" href="../swiper/css/swiper.min.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav>
+                <div class="main-top">
+                    <h1>
+                        <a href="#"><img src="img/logo/starbucks-logo-text.png" width="160px" alt="스타벅스 로고"></a>
+                    </h1>
+                    <div class="menu-button"><img src="img/hamburger-btn.png" height="32px"></div>
+                </div>
+                <div class="menu">
+                    <ul class="menu-tab-title">
+                        <li>
+                            <a href="#">COFFEE</a>
+                            <ul id="tab-1">
+                                <li class="accordion-sub-menu">커피</li>
+                                <li class="accordion-sub-menu">나와 어울리는 커피</li>
+                                <li class="accordion-sub-menu">커피 이야기</li>
+                                <li class="accordion-sub-menu">스타벅스 리저브</li>
+                                <li class="accordion-sub-menu">에스프레소 음료</li>
+                                <li class="accordion-sub-menu">최상의 커피를 즐기는 방법</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">MENU</a>
+                            <ul id="tab-2">
+                                <li class="accordion-sub-menu"><a href="#">음료</a></li>
+                                <li class="accordion-sub-menu"><a href="#">푸드</a></li>
+                                <li class="accordion-sub-menu"><a href="#">상품</a></li>
+                                <li class="accordion-sub-menu"><a href="#">카드</a></li>
+                                <li class="accordion-sub-menu"><a href="#">메뉴 이야기</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">STORE</a>
+                            <ul id="tab-3">
+                                <li class="accordion-sub-menu"><a href="#">매장 찾기</a></li>
+                                <li class="accordion-sub-menu"><a href="#">드라이브 스루 매장</a></li>
+                                <li class="accordion-sub-menu"><a href="#">스타벅스 리저브 매장</a></li>
+                                <li class="accordion-sub-menu"><a href="#">커뮤니티 스토어 매장</a></li>
+                                <li class="accordion-sub-menu"><a href="#">매장 이야기</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">RESPONSIBILITY</a>
+                            <ul id="tab-4">
+                                <li class="accordion-sub-menu"><a href="#">사회 공헌 캠페인 소개</a></li>
+                                <li class="accordion-sub-menu"><a href="#">지역 사회 참여 활동</a></li>
+                                <li class="accordion-sub-menu"><a href="#">환경보호 활동</a></li>
+                                <li class="accordion-sub-menu"><a href="#">윤리 구매</a></li>
+                                <li class="accordion-sub-menu"><a href="#">글로벌 사회 공헌</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">STARBUCKS REWARDS</a>
+                            <ul id="tab-5">
+                                <li class="accordion-sub-menu"><a href="#">스타벅스 리워드</a></li>
+                                <li class="accordion-sub-menu"><a href="#">스타벅스 카드</a></li>
+                                <li class="accordion-sub-menu"><a href="#">스타벅스 e-Gift Card</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">WHAT's NEW</a>
+                            <ul id="tab-6">
+                                <li class="accordion-sub-menu"><a href="#">프로모션 & 이벤트</a></li>
+                                <li class="accordion-sub-menu"><a href="#">새 소식</a></li>
+                                <li class="accordion-sub-menu"><a href="#">매장별 이벤트</a></li>
+                                <li class="accordion-sub-menu"><a href="#">공지사항</a></li>
+                                <li class="accordion-sub-menu"><a href="#">월페이퍼</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">LOG IN</a>
+                        </li>
+                        <div class="search">
+                            <input type="search" placeholder="">
+                            <input id="search_submit" type="submit" value="">
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div id="main">
+            <div class="main-visual-slide">
+                <ul class="bxslider">
+                    <li><div></div></li>
+                    <li><a href="#"><img src="img/main-slide-starbucks-2021-md.jpg" alt="스타벅스 2021 새해 md"></a></li>
+                    <li><a href="#"><img src="img/main-slide-starbucks-2021-md.jpg" alt="스타벅스 2021 새해 md"></a></li>
+                    <li><a href="#"><img src="img/main-slide-starbucks-2021-md.jpg" alt="스타벅스 2021 새해 md"></a></li>
+                </ul>
+        </div>
+        <script type="text/javascript">  
+            $(document).ready(function(){ 
+                $('.bxslider').bxSlider({
+                controls: false,
+                pager: true,   
+                auto: true,
+                pause: 4000,
+                infiniteLoop: true, 
+                autocontrols: true, 
+            });
+            });             
+        </script>
+        </div>
+        <div id="reserve">
+            <div class="reserve-1">
+                <div class="reserve-logo">
+                    <img src="img/logo/starbucks-reserve-logo-white.png" height="200px" alt="리저브 로고">
+                </div>
+                <div class="reserve-logo-txt">
+                    <img src="img/logo/starbucks-reserve-logo-txt-white.png" height="12px" alt="리저브 로고">
+                </div>
+            </div>
+            <div class="reserve-2">
+                <div class="brew-style">
+                    <img src="img/reserve-brew-style-hover-off.png">
+                    <div class="brew-style-name">
+                        <div class="brew-style-poc"><p>POC</p></div>
+                        <div class="brew-style-blackeagle"><p>BLACK</br>EAGLE</p></div>
+                        <div class="brew-style-chemex"><p>CHEMEX</p></div>
+                        <div class="brew-style-clover"><p>CLOVER</p></div>
+                        <div class="brew-style-coldbrew"><p>COLD</p><p>BREW</p></div>
+                        <div class="brew-style-siphon"><p>SIPHON</p></div>
+                    </div>
+                    <div class="brew-style-description">
+                        <div id="poc">
+                            <p class="name">푸어 오버 핸드 드립</p>
+                            <p class="detail">부드럽고 깨끗한 풍미, 은은한 매력을</br>느낄 수 있는 가장 전통적인 커피 추출 방법.</p>
+                        </div>
+                        <div id="blackeagle">
+                            <p class="name">블랙 이글</p>
+                            <p class="detail">110년 전통의 ‘빅토리아 아르두이노’사의</br>최상급 에스프레소 머신 블랙 이글. </p>
+                        </div>
+                        <div id="chemex">
+                            <p class="name">케맥스</p>
+                            <p class="detail">일체화 된 디켄터를 통해 극대화되는 리저브 커피의 깨끗하고 밝은 풍미.</p>
+                        </div>
+                        <div id="clover">
+                            <p class="name">클로버</p>
+                            <p class="detail">마이크로 필터와 진공 압착 추출방식을 사용하는, 오직 스타벅스에서만 만나볼 수 있는 클로버®.</p>
+                        </div>
+                        <div id="coldbrew">
+                            <p class="name">콜드 브루</p>
+                            <p class="detail">콜드 브루의 달콤함, 깊고 부드러운 풀 바디감에 리저브 단일 원산지 커피 특유의 풍미가 더해진 리저브 콜드 브루.</p>
+                        </div>
+                        <div id="siphon">
+                            <p class="name">사이폰</p>
+                            <p class="detail">증기압과 진공력을 이용하는 사이폰의 추출 과정. 풍부하면서도 섬세한 아로마가 매력적인 커피를 선사합니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cursor"></div>
+            <script>
+                //** 이미지 가로로 넘길 수 있는 스크립트 찾아서 넣기
+            </script>
+        </div>
+        <div id="reserve-bean">
+            <div class="page-description">
+                <p>스타벅스 리저브가 선사하는 특별한 커피 경험</p>
+            </div>
+            <div class="learn-more-button">
+                <a href="#" class="more-btn">LEARN MORE</a>
+            </div>
+            <div class="swiper-container reserve-bean-objects">
+                <div class="swiper-wrapper reserve-bean-slider"> 
+                    <div class="swiper-slide reserve-bean-01">
+                        
+                        <div class="reserve-bean-hover">
+                            <div class="bean-image"><img src="img/reserve-bean-rainshine.png" alt="레인샤인"></div>
+                            <div class="bean-name">
+                                <p>레인샤인 블렌드</br>에티오피아 카욘</br> 마운틴 팜</p>
+                            </div>
+                            <div class="bean-description">
+                                <p>은은한 라벤더 향과</br>시트러스,카카오닙스의</br> 짭짤한 피니쉬</p>
+                            </div>
+                            <div class="bean-more-button">
+                                <a href="#"> >MORE! </a>
+                            </div>
+                            <div class="background-circle">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-slide reserve-bean-02">
+                        <div class="reserve-bean-hover">
+                            <div class="bean-image"><img src="img/reserve-bean-rwanda.png" alt="르완다"></div>
+                            <div class="bean-name">
+                                <p>르완다 힝가카와</p>
+                            </div>
+                            <div class="bean-description">
+                                <p>우아한 장미 향,</p> 
+                                <p>오렌지를 닮은 산미와</p> 
+                                <p>깔끔한 피니쉬</p>
+                            </div>
+                            <div class="bean-more-button">
+                                <a href="#"> >MORE! </a>
+                            </div>
+                            <div class="background-circle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide reserve-bean-03">
+                        <div class="reserve-bean-hover">
+                            <div class="bean-image"><img src="img/reserve-bean-sulawesi.png" alt="술라웨시"></div>
+                            <div class="bean-name">
+                                <p>술라웨시</p> 
+                                <p>토라자 사판 빌리지</p>
+                            </div>
+                            <div class="bean-description">
+                                <p>삼나무 향, </p>
+                                <p>신선한 허브의 풍미와</p> 
+                                <p>풍부한 바디감</p>
+                            </div>
+                            <div class="bean-more-button">
+                                <a href="#"> >MORE! </a>
+                            </div>
+                            <div class="background-circle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide reserve-bean-04">
+                        <div class="reserve-bean-hover">
+                            <div class="bean-image"><img src="img/reserve-bean-jameica-blue-mountain.png" alt="자메이카블루마운틴"></div>
+                            <div class="bean-name">
+                                <p>자메이카</p> 
+                                <p>블루 마운틴</p>
+                            </div>
+                            <div class="bean-description">
+                                <p>은은한 꽃 향기,</p> 
+                                <p>코코아와 시트러스의</p>
+                                <p>조화로운 풍미</p>
+                            </div>
+                            <div class="bean-more-button">
+                                <a href="#"> >MORE! </a>
+                            </div>
+                            <div class="background-circle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide reserve-bean-05">
+                        <div class="reserve-bean-hover">
+                            <div class="bean-image"><img src="img/reserve-bean-kenya.png"  alt="케냐"></div>
+                            <div class="bean-name">
+                                <p>케냐 우캄바니</p>
+                            </div>
+                            <div class="bean-description">
+                                <p>자몽의 쥬시한 산미,</p> 
+                                <p>신선한 토마토와</p> 
+                                <p>허브의 매끈한 감칠맛</p>
+                            </div>
+                            <div class="bean-more-button">
+                                <a href="#"> >MORE! </a>
+                            </div>
+                            <div class="background-circle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide reserve-bean-06">
+                        <div class="reserve-bean-hover">
+                            <div class="bean-image"><img src="img/reserve-bean-costarica-honey-process.png" alt="코스타리카-허니-프로세스"></div>
+                            <div class="bean-name">
+                                <p>코스타리카</p>
+                                <p>허니 프로세스</p>
+                            </div>
+                            <div class="bean-description">
+                                <p>과육에서 느껴지는</p> 
+                                <p>꿀과 같은 은은한 달콤함</p>
+                            </div>
+                            <div class="bean-more-button">
+                                <a href="#"> >MORE! </a>
+                            </div>
+                            <div class="background-circle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide reserve-bean-07">
+                        <div class="reserve-bean-hover">
+                            <div class="bean-image"><img src="img/reserve-bean-costarica.png" alt="코스타리카"></div>
+                            <div class="bean-name">
+                                <p>코스타리카</p> 
+                                <p>벨라 비스타</p>
+                            </div>
+                            <div class="bean-description">
+                                <p>구운 사과, 블랙 월넛의</p> 
+                                <p>균형 잡힌 부드러운 향</p>
+                            </div>
+                            <div class="bean-more-button">
+                                <a href="#"> >MORE! </a>
+                            </div>
+                            <div class="background-circle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide reserve-bean-08">
+                        <div class="reserve-bean-hover">
+                            <div class="bean-image"><img src="img/reserve-bean-colombia.png" alt="콜롬비아"></div>
+                            <div class="bean-name">
+                                <p>콜롬비아</p> 
+                                <p>핀카 라 레세르바</p>
+                            </div>
+                            <div class="bean-description">
+                                <p>은은한 산미와</p>
+                                <p>다크 초콜릿, 달콤한 견과류의 풍미</p>
+                            </div>
+                            <div class="bean-more-button">
+                                <a href="#"> >MORE! </a>
+                            </div>
+                            <div class="background-circle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide reserve-bean-09">
+                        <div class="reserve-bean-hover">
+                            <div class="bean-image"><img src="img/reserve-bean-christmas-2020.png" alt="크리스마스"></div>
+                            <div class="bean-name">
+                                <p>크리스마스 2020</p>
+                            </div>
+                            <div class="bean-description">
+                                <p>포근한 삼나무 향,</p> 
+                                <p>달콤한 오렌지 마멀레이드와</p>
+                                <p>버터 스카치</p>
+                            </div>
+                            <div class="bean-more-button">
+                                <a href="#"> >MORE! </a>
+                            </div>
+                            <div class="background-circle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide reserve-bean-10">
+                        <div class="reserve-bean-hover">
+                            <div class="bean-image"><img src="img/reserve-bean-panama.png" alt="파나마"></div>
+                            <div class="bean-name">
+                                <p>파나마</p> 
+                                <p>카르멘 에스테이트</p>
+                            </div>
+                            <div class="bean-description">
+                                <p>풍부한 과즙의</p> 
+                                <p>오렌지처럼 톡 쏘는 산미</p>
+                            </div>
+                            <div class="bean-more-button">
+                                <a href="#"> >MORE! </a>
+                            </div>
+                            <div class="background-circle">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide reserve-bean-11">
+                        <div class="reserve-bean-hover">
+                            <div class="bean-image"><img src="img/reserve-bean-hawaii-kau.png" alt="하와이카우"></div>
+                            <div class="bean-name">
+                                <p>하와이 카우</p>
+                            </div>
+                            <div class="bean-description">
+                                <p>중간 정도의</br> 시트러스한 산미와</br> 
+                                구운 아몬드의 풍미</p>
+                            </div>
+                            <div class="bean-more-button">
+                                <a href="#"> >MORE! </a>
+                            </div>
+                            <div class="background-circle">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-left">
+                    <img src="img/mobile-navigation-btn-left.png" alt="다음 버튼">
+                </div>  
+                <div class="swiper-button-right">
+                    <img src="img/mobile-navigation-btn-right.png" alt="이전 버튼">
+                </div>  
+            </div>
+            <div class="swiper-container gallery-thumbs">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="bean-thumb" src="img/reserve-bean-rainshine.png" alt="레인샤인">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="bean-thumb" src="img/reserve-bean-rwanda.png" alt="르완다">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="bean-thumb" src="img/reserve-bean-sulawesi.png" alt="술라웨시">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="bean-thumb" src="img/reserve-bean-jameica-blue-mountain.png" alt="자메이카블루마운틴">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="bean-thumb" src="img/reserve-bean-kenya.png"  alt="케냐">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="bean-thumb" src="img/reserve-bean-costarica-honey-process.png" alt="코스타리카-허니-프로세스">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="bean-thumb" src="img/reserve-bean-costarica.png" alt="코스타리카">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="bean-thumb" src="img/reserve-bean-colombia.png" alt="콜롬비아">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="bean-thumb" src="img/reserve-bean-christmas-2020.png" alt="크리스마스">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="bean-thumb" src="img/reserve-bean-panama.png" alt="파나마">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="bean-thumb" src="img/reserve-bean-hawaii-kau.png" alt="하와이카우">
+                    </div>
+                </div>
+            </div>
+        </div>
+          <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <script>
+            var galleryThumbs = new Swiper('.gallery-thumbs', {
+              spaceBetween: 10,
+              slidesPerView: 3,
+              loop: true,
+              freeMode: true,
+              loopedSlides: 5, //looped slides should be the same
+              watchSlidesVisibility: true,
+              watchSlidesProgress: true,
+            });
+            var galleryTop = new Swiper('.reserve-bean-objects', {
+              spaceBetween: 10,
+              loop: true,
+              loopedSlides: 5, //looped slides should be the same
+              navigation: {
+                nextEl: '.swiper-button-left',
+                prevEl: '.swiper-button-right',
+              },
+              thumbs: {
+                swiper: galleryThumbs,
+              },
+            });
+          </script>
+        <div id="search-store">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1585.1161242703909!2d127.1211456444926!3d37.38433948329983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1992c32ed31022de!2z7Iqk7YOA67KF7IqkIOu2hOuLueq1rOyyreygkA!5e0!3m2!1sko!2skr!4v1616654054735!5m2!1sko!2skr" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>                
+            </div>
+            <h2>내 주변 매장 찾기</h2>
+            <div class="store-list">
+                <ul>
+                    <li>
+                        <img src="img/main/find-store-general.png" width="56px">
+                        <p class="store-name">서현N타운</p>
+                        <div class="store-address">
+                            <p>경기도 성남시 분당구 황새울로 335번길 5 (서현동)</br>
+                            1522-3232</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/main/find-store-reserve.png" width="56px">
+                        <p class="store-name">분당구청</p>
+                        <div class="store-address">
+                            <p>경기도 성남시 분당구 분당로 43 (서현동)</br>
+                            1522-3232</p>
+                        </div>
+                    </li>
+                       
+                </ul>
+            </div>
+           
+        </div>
+        <footer>
+            <div class="footer-button">
+                <div class="button"><a href="#">찾아오시는 길</a></div>
+                <div class="button"><a href="#">신규입점제의</a></div>
+                <div class="button"><a href="#">사이트맵</a></div>
+            </div>
+            <div class="footer-copyright">
+                <div class="copyright-1">
+                    <span>사업자등록번호 : 201-81-21515</span>
+                    <span>(주)스타벅스커피 코리아 대표이사 : 송 데이비드 호섭</span>
+                    <span>TEL : 1522-3232</span>
+                    <span>개인정보 책임자 : 하익성</span>
+                </div>
+                <p>ⓒ 2021 Starbucks Coffee Company. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

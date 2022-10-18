@@ -1,0 +1,484 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* font-family: 'Gothic A1', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/*font-family: 'Open Sans', sans-serif;*/
+
+/*
+@import url("https://www.openhiun.com/hangul/nanumbarungothic.css");
+/*font-family: 'Nanum Barun Gothic', sans-serif;*/
+
+/*-------------reset CSS--------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*----------------------------------------------------------------*/
+/*----------시작-------------*/
+@media (max-width: 768px) {
+	header {
+		width: 100%;
+		height: 60px;
+		background-color: #f6f5ef;
+	}
+	header nav {
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	header nav .main-top{
+		height: 60px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		/*justify-content: center;*/
+	}
+
+	header nav .main-top h1{
+		position: relative;
+		left: 25%;
+	}
+	header nav .main-top .menu-button{
+		display: inline-block;
+		position: relative;
+		right: -40%;
+	}
+	header nav .menu {
+		display: none;
+	}
+
+	#main {
+		height: 800px;
+	}
+
+	#main .main-visual-slide .bxslider li div{
+		height: 800px;
+		background-image: url(../img/mobile-main-slide2.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position-y: bottom;
+		width: 100%;
+	}
+	#reserve {
+		width: 100%;
+		height: 2200px;
+		background: url("../img/reserve-bg-img.png") left no-repeat fixed;
+		background-size: cover;
+		background-attachment: fixed;
+		position: relative;
+		top: 0;
+		/*cursor: none;*/
+	}
+	#reserve .reserve-1 {
+		width: 100%;
+		text-align: center;
+	}
+	#reserve .reserve-1 .reserve-logo{
+		display: block;
+		position: absolute;
+		top: 200px;
+		width: 100%;
+		text-align: center;
+	}
+	#reserve .reserve-1 .reserve-logo-txt {
+		display: block;
+		position: absolute;
+		top: 472px;
+		text-align: center;
+		width: 100%;
+
+	}
+	#reserve .reserve-2 {
+		width: 100%;
+	}
+	#reserve .reserve-2 .brew-style {
+		width: 100%;
+		position: absolute;
+		top: 800px;
+	}
+	#reserve .reserve-2 .brew-style img {
+		position: absolute;
+		top: -10%;
+		left: -50%;
+		overflow-x:hidden;
+	}
+	
+	#reserve .reserve-2 .brew-style .brew-style-name p{
+		color: #e4e3e1;
+		font-family: 'Gothic A1', sans-serif; 
+		font-size: 1.5em;
+		font-weight: 400;
+		text-shadow: 2px 1px 9px rgba(37, 25, 15, 0.8);
+		line-height: 1.2;
+	}
+
+
+	#reserve .reserve-2 .brew-style .brew-style-name .brew-style-poc {
+		display: block;
+		position: absolute;
+		top: 340px;
+		left: 16%;
+	}
+	#reserve .reserve-2 .brew-style .brew-style-name .brew-style-blackeagle p{
+		display: block;
+		position: absolute;
+		top: 592px;
+		right: 12%
+	}
+
+	#reserve .cursor {
+		display: block;
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		mix-blend-mode: difference;
+		background-color: #fff;
+		z-index: 1000000;
+		position: absolute;
+		top: 1240px;
+		right: 0;
+	}
+	#reserve .reserve-2 .brew-style .brew-style-name .brew-style-chemex{display: none;}
+	#reserve .reserve-2 .brew-style .brew-style-name .brew-style-clover{display: none;}
+
+	#reserve .reserve-2 .brew-style .brew-style-name .brew-style-coldbrew{display: none;}
+
+	#reserve .reserve-2 .brew-style .brew-style-name .brew-style-siphon{display: none;}
+
+	#reserve .reserve-2 .brew-style .brew-style-description #poc {display: none;}
+	#reserve .reserve-2 .brew-style .brew-style-description #chemex {display: none;}
+	#reserve .reserve-2 .brew-style .brew-style-description #clover {display: none;}
+	#reserve .reserve-2 .brew-style .brew-style-description #coldbrew {display: none;}
+	#reserve .reserve-2 .brew-style .brew-style-description #siphon {display: none;}
+
+	#reserve .reserve-2 .brew-style .brew-style-description{
+		border-left: solid 2px #fff;
+		position: absolute;
+		display: block;
+		top: 720px;
+		left: 10%;
+		color: #fff;
+		padding-left: 8px;
+	}
+
+	#reserve .reserve-2 .brew-style .brew-style-description .name {
+		font-family: 'Gothic A1', sans-serif; 
+		font-size: 1.75em;
+		font-weight: 600;
+		text-shadow: 2px 1px 9px rgba(37, 25, 15, 0.8);
+		margin-bottom: 40px;
+	}
+	#reserve .reserve-2 .brew-style .brew-style-description .detail {
+		font-family: 'Gothic A1', sans-serif; 
+		font-size: 1.125em;
+		font-weight: 200;
+		text-shadow: 2px 1px 9px rgba(37, 25, 15, 0.8);
+		line-height: 1.3;
+	}
+
+	#reserve-bean {
+		width: 100%;
+		height: 1160px;
+		background: url(../img/mobile-reserve-bean-title.png) no-repeat ;
+		background-color: #f2f2f2;
+		background-position-y: 40px;
+		position: relative;
+		background-size: 100%;
+	}
+	#reserve-bean .page-description {
+		position: absolute;
+		top: 200px;
+		right: 5%;
+	}
+
+	#reserve-bean .page-description p{
+		font-family: 'Gothic A1', sans-serif; 
+		font-size: 1.125em;
+		font-weight: 200;
+		margin-bottom: 40px;
+		color: #000;
+	}
+	#reserve-bean .learn-more-button {
+		display: block;
+		position: absolute;
+		right: 2%;
+		top: 240px;
+		padding: 0.75em;
+		text-align: center;
+	
+	}
+	
+	
+	#reserve-bean .learn-more-button .more-btn {
+	  background: #303030;
+	  border: none;
+	  border-radius: 2px;
+	  color: #fff;
+	  display: block;
+	  font-size: 1em;
+	  font-weight: 800;
+	  text-transform: uppercase;
+	  font-family: 'Gothic A1', sans-serif;
+	  box-sizing: border-box;
+	  width: 232px;
+	  height: 36px;
+	  position: relative;
+	  z-index: 1;
+	  line-height: 36px;
+	}
+	
+	
+	 .more-btn::after {
+	  background: #303030;
+	  content: '';
+	  position: absolute;
+	  z-index: -1;
+	}
+	
+	#reserve-bean .learn-more-button a:link{
+		color: #fff;
+		text-decoration: none;
+	}
+	
+	#reserve-bean .learn-more-button a:active{
+	  color: #fff;
+	}
+	
+	#reserve-bean .learn-more-button a:visited{
+	  color: #fff;
+	}
+
+	#reserve-bean .reserve-bean-objects {
+		position: absolute;
+		top: 320px;
+		width: 100%;
+		height: 500px;
+	}
+
+	#reserve-bean .reserve-bean-objects .swiper-wrapper .swiper-slide {
+		position: relative;
+		top: 0;
+		left: -5%;
+	}
+
+	.background-circle {
+		width: 280px;
+		height: 280px;
+		border-radius: 50%;
+		position: absolute;
+		top: 20px;
+		left: 25%;
+		transition: 1s;
+		z-index: -1;
+	  }
+
+	#reserve-bean .reserve-bean-objects .swiper-wrapper .swiper-slide .reserve-bean-hover .bean-image img{
+		width: 360px;
+		position: absolute;
+		left: -10%;
+	}
+
+	#reserve-bean .reserve-bean-hover .bean-name {
+	
+		position: absolute;
+		width: 300px;
+		text-align: left;
+		top: 64px;
+		left: 55%;
+		
+	}
+	
+	#reserve-bean .reserve-bean-hover .bean-name p {
+		font-family: 'Gothic A1', sans-serif;
+		font-size: 1.25em;
+		font-weight: 600;
+		line-height: 1.125em;
+	}
+	
+	
+	
+	#reserve-bean .reserve-bean-hover .bean-description {
+		
+		text-align: left;
+		left: 55%;
+		top: 150px;
+		position: absolute;
+	}
+	
+	#reserve-bean .reserve-bean-hover .bean-description p {
+		font-size: 0.875em;
+		font-weight: 500;
+		line-height: 1.3;
+		font-family: 'Gothic A1', sans-serif;
+	}
+	
+	#reserve-bean .bean-more-button {
+		font-size: 1em;
+		font-weight: 800;
+		font-family: 'Gothic A1', sans-serif;
+		text-align: left;
+		left: 55%;
+		top: 260px;
+		position: absolute;
+		cursor: pointer;
+		z-index: 45;
+		color: #000;
+	}
+	
+	
+#reserve-bean .bean-more-button a:link{
+	color: black;
+}
+
+#reserve-bean .bean-more-button a:active{
+  color: black;
+}
+
+#reserve-bean .bean-more-button a:visited{
+  color: black;
+}
+
+
+#reserve-bean .gallery-thumbs{
+		position: absolute;
+		top: 640px;
+		display: block;
+		z-index: 10;
+}
+
+	#reserve-bean .swiper-container .swiper-wrapper .reserve-bean-01 .reserve-bean-hover .background-circle{
+		background-color: #fdb7c1;
+		
+	} 
+	
+	#reserve-bean .swiper-container .swiper-wrapper .reserve-bean-02 .reserve-bean-hover .background-circle{
+		background-color: #00954a;
+		
+	}
+	
+	#reserve-bean .swiper-container .swiper-wrapper .reserve-bean-03 .reserve-bean-hover .background-circle{
+		background-color: #fdb906;
+		
+	}
+	
+	#reserve-bean .swiper-container .swiper-wrapper .reserve-bean-04 .reserve-bean-hover .background-circle{
+		background-color: #4271be;
+		
+	}
+	
+	#reserve-bean .swiper-container .swiper-wrapper .reserve-bean-05 .reserve-bean-hover .background-circle{
+		background-color: #f0ec47;
+		
+	}
+	
+	#reserve-bean .swiper-container .swiper-wrapper .reserve-bean-06 .reserve-bean-hover .background-circle{
+		background-color: #e26a8a;
+		
+	}
+	
+	#reserve-bean .swiper-container .swiper-wrapper .reserve-bean-07 .reserve-bean-hover .background-circle{
+		background-color: #05a543;
+		
+	}
+	
+	#reserve-bean .swiper-container .swiper-wrapper .reserve-bean-08 .reserve-bean-hover .background-circle{
+		background-color: #89cb6a;
+		
+	}
+	
+	#reserve-bean .swiper-container .swiper-wrapper .reserve-bean-09 .reserve-bean-hover .background-circle{
+		background-color: #ce1723;
+		
+	}
+	
+	#reserve-bean .swiper-container .swiper-wrapper .reserve-bean-10 .reserve-bean-hover .background-circle{
+		background-color: #d4f2df;
+		
+	}
+	
+	#reserve-bean .swiper-container .swiper-wrapper .reserve-bean-11 .reserve-bean-hover .background-circle{
+		background-color: #7bcdca;
+		
+	}
+
+	#reserve-bean .swiper-button-left {
+		position: absolute;
+		top: 400px;
+		left: 10%;
+		z-index: 20;
+		display: block;
+	}
+
+	
+	#reserve-bean .swiper-button-left img {
+		width: 64px;
+	}
+
+	#reserve-bean .swiper-button-right {
+		position: absolute;
+		top: 400px;
+		right: 10%;
+		z-index: 20;
+		display: block;
+	}
+
+	
+	#reserve-bean .swiper-button-right img {
+		width: 64px;
+	}
+
+	.gallery-thumbs .swiper-wrapper .swiper-slide {
+		width: 100px;
+	}
+
+	.gallery-thumbs .swiper-wrapper .swiper-slide img.bean-thumb {
+		width: 100px;
+	}
+
+
+  }
